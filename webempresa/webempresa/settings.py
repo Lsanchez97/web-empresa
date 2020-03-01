@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 't-w5#15i*lxc823f3+rsim)89yd*+tu3-5l43f#jm6!gzxv_j6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lsanchez.pythoneverywhere.com','localhost','127.0.0.1']
 
 
 # Application definition
